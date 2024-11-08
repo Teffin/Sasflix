@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct User {
-    let id: UUID
+struct User: Decodable {
+    let id: UInt
     let userName: String
     let fullName: String
 }

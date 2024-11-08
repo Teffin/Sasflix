@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B82FD70F2CDE3362000D2BF2 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82FD70E2CDE335F000D2BF2 /* PostView.swift */; };
+		B82FD7112CDE3630000D2BF2 /* PostBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82FD7102CDE362E000D2BF2 /* PostBindings.swift */; };
 		B889D9F52CDAA66D001160A2 /* SasflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889D9F42CDAA66D001160A2 /* SasflixApp.swift */; };
-		B889D9F72CDAA66D001160A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889D9F62CDAA66D001160A2 /* ContentView.swift */; };
 		B889D9F92CDAA66F001160A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B889D9F82CDAA66F001160A2 /* Assets.xcassets */; };
 		B889D9FC2CDAA66F001160A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B889D9FB2CDAA66F001160A2 /* Preview Assets.xcassets */; };
 		B889DA042CDAAC3F001160A2 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889DA032CDAAC3F001160A2 /* Comments.swift */; };
@@ -17,14 +18,19 @@
 		B889DA0A2CDAAC91001160A2 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889DA092CDAAC91001160A2 /* Posts.swift */; };
 		B889DA0C2CDAACC7001160A2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889DA0B2CDAACC7001160A2 /* Post.swift */; };
 		B889DA0E2CDAACFB001160A2 /* Reactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889DA0D2CDAACFB001160A2 /* Reactions.swift */; };
-		B889DA102CDAAD0D001160A2 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889DA0F2CDAAD0D001160A2 /* Tag.swift */; };
 		B889DA132CDAADA5001160A2 /* RestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889DA122CDAADA5001160A2 /* RestApi.swift */; };
+		B8C417A22CDBD50E0032030A /* PostsBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C417A12CDBD50E0032030A /* PostsBindings.swift */; };
+		B8C417A52CDCBD160032030A /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C417A42CDCBD160032030A /* PostsView.swift */; };
+		B8C417A82CDCBDBF0032030A /* PostsViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C417A72CDCBDBF0032030A /* PostsViewState.swift */; };
+		B8C417AB2CDCBE250032030A /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C417AA2CDCBE250032030A /* PostsViewModel.swift */; };
+		B8C417AD2CDCBE6F0032030A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C417AC2CDCBE6F0032030A /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B82FD70E2CDE335F000D2BF2 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		B82FD7102CDE362E000D2BF2 /* PostBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostBindings.swift; sourceTree = "<group>"; };
 		B889D9F12CDAA66D001160A2 /* Sasflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sasflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B889D9F42CDAA66D001160A2 /* SasflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SasflixApp.swift; sourceTree = "<group>"; };
-		B889D9F62CDAA66D001160A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B889D9F82CDAA66F001160A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B889D9FB2CDAA66F001160A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B889DA032CDAAC3F001160A2 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
@@ -33,8 +39,12 @@
 		B889DA092CDAAC91001160A2 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		B889DA0B2CDAACC7001160A2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B889DA0D2CDAACFB001160A2 /* Reactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reactions.swift; sourceTree = "<group>"; };
-		B889DA0F2CDAAD0D001160A2 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 		B889DA122CDAADA5001160A2 /* RestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApi.swift; sourceTree = "<group>"; };
+		B8C417A12CDBD50E0032030A /* PostsBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsBindings.swift; sourceTree = "<group>"; };
+		B8C417A42CDCBD160032030A /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		B8C417A72CDCBDBF0032030A /* PostsViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewState.swift; sourceTree = "<group>"; };
+		B8C417AA2CDCBE250032030A /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		B8C417AC2CDCBE6F0032030A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +77,11 @@
 		B889D9F32CDAA66D001160A2 /* Sasflix */ = {
 			isa = PBXGroup;
 			children = (
+				B8C417A92CDCBE170032030A /* ViewModels */,
+				B8C417A62CDCBD5E0032030A /* States */,
+				B8C417A32CDCBD020032030A /* Views */,
+				B8C417A02CDBD4F90032030A /* Bindings */,
 				B889D9F82CDAA66F001160A2 /* Assets.xcassets */,
-				B889D9F62CDAA66D001160A2 /* ContentView.swift */,
 				B889D9FA2CDAA66F001160A2 /* Preview Content */,
 				B889DA112CDAAD87001160A2 /* RestApi */,
 				B889D9F42CDAA66D001160A2 /* SasflixApp.swift */,
@@ -94,7 +107,6 @@
 				B889DA072CDAAC68001160A2 /* User.swift */,
 				B889DA0B2CDAACC7001160A2 /* Post.swift */,
 				B889DA0D2CDAACFB001160A2 /* Reactions.swift */,
-				B889DA0F2CDAAD0D001160A2 /* Tag.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -105,6 +117,41 @@
 				B889DA122CDAADA5001160A2 /* RestApi.swift */,
 			);
 			path = RestApi;
+			sourceTree = "<group>";
+		};
+		B8C417A02CDBD4F90032030A /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				B82FD7102CDE362E000D2BF2 /* PostBindings.swift */,
+				B8C417A12CDBD50E0032030A /* PostsBindings.swift */,
+			);
+			path = Bindings;
+			sourceTree = "<group>";
+		};
+		B8C417A32CDCBD020032030A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8C417A42CDCBD160032030A /* PostsView.swift */,
+				B82FD70E2CDE335F000D2BF2 /* PostView.swift */,
+				B8C417AC2CDCBE6F0032030A /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8C417A62CDCBD5E0032030A /* States */ = {
+			isa = PBXGroup;
+			children = (
+				B8C417A72CDCBDBF0032030A /* PostsViewState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		B8C417A92CDCBE170032030A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B8C417AA2CDCBE250032030A /* PostsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,15 +224,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82FD70F2CDE3362000D2BF2 /* PostView.swift in Sources */,
 				B889DA132CDAADA5001160A2 /* RestApi.swift in Sources */,
-				B889D9F72CDAA66D001160A2 /* ContentView.swift in Sources */,
+				B8C417AD2CDCBE6F0032030A /* MainView.swift in Sources */,
+				B8C417AB2CDCBE250032030A /* PostsViewModel.swift in Sources */,
+				B82FD7112CDE3630000D2BF2 /* PostBindings.swift in Sources */,
 				B889DA0A2CDAAC91001160A2 /* Posts.swift in Sources */,
 				B889DA0E2CDAACFB001160A2 /* Reactions.swift in Sources */,
+				B8C417A82CDCBDBF0032030A /* PostsViewState.swift in Sources */,
 				B889D9F52CDAA66D001160A2 /* SasflixApp.swift in Sources */,
+				B8C417A22CDBD50E0032030A /* PostsBindings.swift in Sources */,
 				B889DA042CDAAC3F001160A2 /* Comments.swift in Sources */,
 				B889DA082CDAAC68001160A2 /* User.swift in Sources */,
-				B889DA102CDAAD0D001160A2 /* Tag.swift in Sources */,
 				B889DA0C2CDAACC7001160A2 /* Post.swift in Sources */,
+				B8C417A52CDCBD160032030A /* PostsView.swift in Sources */,
 				B889DA062CDAAC56001160A2 /* Comment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

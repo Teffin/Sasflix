@@ -5,7 +5,7 @@
 //  Created by Evgeniy Kozyrev on 05.11.2024.
 //
 
-struct Reactions {
+struct Reactions: Decodable {
     let likes: Int
     let dislikes: Int
 }

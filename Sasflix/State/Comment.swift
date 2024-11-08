@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct Comment {
-    let id: UUID
+struct Comment: Decodable {
+    let id: UInt
     let body: String
-    let postId: UUID
+    let postId: UInt
     let likes: Int
-    let users: [User]
+//    let users: [User]
 }

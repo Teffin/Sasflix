@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct Post {
-    let id: UUID
+struct Post: Decodable {
+    let id: UInt
     let title: String
     let body: String
-    let tags: [Tag]
+    let tags: [String]
     let reactions: Reactions
-    let views: Int
-    let usetId: UUID
+    let views: UInt
+    let userId: UInt
 }
